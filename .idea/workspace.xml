@@ -1405,6 +1405,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\fenjin\PycharmProjects\opencv\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1UShGkYkbGysRrnwmhuHmDWHlmQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -1615,6 +1622,10 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
+    <state x="2383" y="117" key="CommitChangelistDialog2" timestamp="1575527149522">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2383" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575527149522" />
     <state x="2660" y="278" key="FileChooserDialogImpl" timestamp="1575526909502">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
