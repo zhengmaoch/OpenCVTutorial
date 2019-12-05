@@ -7,3 +7,6 @@ cv.waitKey(0)
 cv.destroyAllWindows()
 
 print("Hello Python!")
+
+
+# https://www.cnblogs.com/ssyfj/category/1245091.html
