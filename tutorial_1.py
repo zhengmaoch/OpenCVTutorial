@@ -20,12 +20,12 @@ def get_image_info(image):
     print(pixel_data)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 get_image_info(src)
 gray = cv.cvtColor(src, cv.COLOR_BGR2GRAY)
-cv.imwrite("c:/Users/fenjin/PycharmProjects/images/demo1.jpg", gray)
+cv.imwrite("images/demo1.jpg", gray)
 # video_demo()
 cv.waitKey(0)
 

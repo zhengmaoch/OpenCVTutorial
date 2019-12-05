@@ -5,7 +5,7 @@ import numpy as np
 def save_video():
     cap = cv.VideoCapture(0)
     fourcc = cv.VideoWriter_fourcc(*'XVID')
-    out = cv.VideoWriter('c:/Users/fenjin/PycharmProjects/images/video.avi', fourcc, 20.0, (640, 480))
+    out = cv.VideoWriter('images/video.avi', fourcc, 20.0, (640, 480))
     while cap.isOpened():
         ret, frame = cap.read()
         if ret:
@@ -20,7 +20,7 @@ def save_video():
 
 
 def extrace_object_demo():
-    capture = cv.VideoCapture("c:/Users/fenjin/PycharmProjects/images/video.avi")
+    capture = cv.VideoCapture("images/video.avi")
     while True:
         ret, frame = capture.read()
         if not ret:
@@ -51,7 +51,7 @@ def color_space_demo(image):
     cv.imshow("rgb", rgb)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 # cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

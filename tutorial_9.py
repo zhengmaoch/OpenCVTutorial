@@ -17,7 +17,7 @@ def image_hist(image):
     plt.show()
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 
@@ -25,7 +25,7 @@ t1 = cv.getTickCount()
 
 plot_demo(src)
 image_hist(src)
-# cv.imwrite("c:/Users/fenjin/PycharmProjects/images/result_image.jpg", src)
+# cv.imwrite("images/result_image.jpg", src)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

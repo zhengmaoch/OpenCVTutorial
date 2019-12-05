@@ -45,10 +45,10 @@ def measure_object(image):
             cv.drawContours(dst, contours, i, (0, 0, 255), 2)
 
     cv.imshow("approxCurve", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/approxCurve_image.jpg", dst)
+    cv.imwrite("images/approxCurve_image.jpg", dst)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/detect_blob.png")
+src = cv.imread("images/detect_blob.png")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

@@ -41,7 +41,7 @@ def inverse(image):
     cv.imshow("imverse demo", dst)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

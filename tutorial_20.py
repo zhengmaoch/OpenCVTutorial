@@ -34,10 +34,10 @@ def contours_demo(image):
         print(i)
 
     cv.imshow("contours", image)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/contours_image.jpg", image)
+    cv.imwrite("images/contours_image.jpg", image)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/detect_blob.png")
+src = cv.imread("images/detect_blob.png")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

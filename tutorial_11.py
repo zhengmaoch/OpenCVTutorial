@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 
 def back_projection_demo():
     """直方图反向投影"""
-    sample = cv.imread("c:/Users/fenjin/PycharmProjects/images/sample.bmp")
-    target = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+    sample = cv.imread("images/sample.bmp")
+    target = cv.imread("images/demo.jpg")
     roi_hsv = cv.cvtColor(sample, cv.COLOR_BGR2HSV)
     target_hsv = cv.cvtColor(target, cv.COLOR_BGR2HSV)
     cv.imshow("sample", sample)
@@ -17,7 +17,7 @@ def back_projection_demo():
     dst = cv.calcBackProject([target_hsv], [0, 1], roiHist, [0, 180, 0, 256], 1)
 
     cv.imshow("back_projection_demo", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/back_projection_image.jpg", dst)
+    cv.imwrite("images/back_projection_image.jpg", dst)
 
 
 def hist2d_demo(image):
@@ -29,7 +29,7 @@ def hist2d_demo(image):
     plt.show()
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 # cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 # cv.imshow("input image", src)
 

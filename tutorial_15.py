@@ -31,13 +31,13 @@ def lapalian_demo(image):
             cv.imshow("lapalian_down_" + str(i), lpls)
 
 # 图片大小必须是2的n次方大小，否则报错
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/lena.jpg")
+src = cv.imread("images/lena.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()
 
 lapalian_demo(src)
-# cv.imwrite("c:/Users/fenjin/PycharmProjects/images/result_image.jpg", src)
+# cv.imwrite("images/result_image.jpg", src)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

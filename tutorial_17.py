@@ -17,14 +17,14 @@ def canny_edge_demo(image):
     # canny_edge = cv.Canny(xgrad, ygrad, 50, 150)
     canny_edge = cv.Canny(gray, 50, 150)
     cv.imshow("canny_edge", canny_edge)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/canny_edge_image.jpg", canny_edge)
+    cv.imwrite("images/canny_edge_image.jpg", canny_edge)
 
     dst = cv.bitwise_and(image, image, mask=canny_edge)
     cv.imshow("color_edge", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/color_edge_image.jpg", dst)
+    cv.imwrite("images/color_edge_image.jpg", dst)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

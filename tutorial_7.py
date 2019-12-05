@@ -23,10 +23,10 @@ def gaussian_noise(image):
             image[row, col, 1] = clamp(g + s[1])
             image[row, col, 2] = clamp(r + s[2])
     cv.imshow("gaussian_noise", image)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/gaussian_noise_image.jpg", image)
+    cv.imwrite("images/gaussian_noise_image.jpg", image)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

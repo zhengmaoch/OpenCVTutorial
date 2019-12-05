@@ -13,10 +13,10 @@ def detect_circle_demo(image):
         cv.circle(image, (i[0], i[1]), i[2], (0, 0, 255), 2)
         cv.circle(image, (i[0], i[1]), 2, (0, 0, 255), 2)
     cv.imshow("detect_circle", image)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/detect_circle_image.jpg", image)
+    cv.imwrite("images/detect_circle_image.jpg", image)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/detect_blob.png")
+src = cv.imread("images/detect_blob.png")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

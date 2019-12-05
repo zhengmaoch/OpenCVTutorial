@@ -14,18 +14,18 @@ def watershed_demo(image):
 
 
     cv.imshow("sure_bg", sure_bg)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/sure_bg_image.jpg", sure_bg)
+    cv.imwrite("images/sure_bg_image.jpg", sure_bg)
 
     dist = cv.distanceTransform(mb, cv.DIST_L2, 3)
     distout = cv.normalize(dist, 0, 1.0, cv.NORM_MINMAX) * 50
     cv.imshow("distout", distout)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/distout_image.jpg", distout)
+    cv.imwrite("images/distout_image.jpg", distout)
 
     ret, surface = cv.threshold(dist, dist.max() * 0.6, 255, cv.THRESH_BINARY)
     cv.imshow("surface", surface)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/surface_image.jpg", surface)
+    cv.imwrite("images/surface_image.jpg", surface)
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

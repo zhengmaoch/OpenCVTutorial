@@ -6,28 +6,28 @@ def add_image(m1, m2):
     dst = cv.add(m1, m2)
     cv.imshow("add_image", dst)
     # rgb = cv.cvtColor(dst, cv.COLOR_BGR2RGB)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/addimage.jpg", dst)
+    cv.imwrite("images/addimage.jpg", dst)
 
 
 def subtract_image(m1, m2):
     dst = cv.subtract(m1, m2)
     cv.imshow("subtract_image", dst)
     # rgb = cv.cvtColor(dst, cv.COLOR_BGR2RGB)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/subtractimage.jpg", dst)
+    cv.imwrite("images/subtractimage.jpg", dst)
 
 
 def divide_image(m1, m2):
     dst = cv.divide(m1, m2)
     cv.imshow("divide_image", dst)
     # rgb = cv.cvtColor(dst, cv.COLOR_BGR2RGB)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/divideimage.jpg", dst)
+    cv.imwrite("images/divideimage.jpg", dst)
 
 
 def multiply_image(m1, m2):
     dst = cv.multiply(m1, m2)
     cv.imshow("multiply_image", dst)
     # rgb = cv.cvtColor(dst, cv.COLOR_BGR2RGB)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/multiplyimage.jpg", dst)
+    cv.imwrite("images/multiplyimage.jpg", dst)
 
 
 def mean_image(m1, m2):
@@ -53,16 +53,16 @@ def mean_image(m1, m2):
 def logic_image(m1, m2):
     # dst = cv.bitwise_and(m1, m2)
     # cv.imshow("and", dst)
-    # cv.imwrite("c:/Users/fenjin/PycharmProjects/images/andimage.jpg", dst)
+    # cv.imwrite("images/andimage.jpg", dst)
     # dst = cv.bitwise_or(m1, m2)
     # cv.imshow("or", dst)
-    # cv.imwrite("c:/Users/fenjin/PycharmProjects/images/orimage.jpg", dst)
+    # cv.imwrite("images/orimage.jpg", dst)
     # dst = cv.bitwise_not(m2)
     # cv.imshow("not", dst)
-    # cv.imwrite("c:/Users/fenjin/PycharmProjects/images/notimage.jpg", dst)
+    # cv.imwrite("images/notimage.jpg", dst)
     dst = cv.bitwise_xor(m1, m2)
     cv.imshow("xor", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/xorimage.jpg", dst)
+    cv.imwrite("images/xorimage.jpg", dst)
 
 
 def contrast_brightness(image, c, b):
@@ -70,12 +70,12 @@ def contrast_brightness(image, c, b):
     blank = np.zeros([h, w, ch], image.dtype)
     dst = cv.addWeighted(image, c, blank, 1-c, b)
     cv.imshow("con_bri", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/con_bri_image.jpg", dst)
+    cv.imwrite("images/con_bri_image.jpg", dst)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
-src1 = cv.imread("c:/Users/fenjin/PycharmProjects/images/LinuxLogo.jpg")
-src2 = cv.imread("c:/Users/fenjin/PycharmProjects/images/WindowsLogo.jpg")
+src = cv.imread("images/demo.jpg")
+src1 = cv.imread("images/LinuxLogo.jpg")
+src2 = cv.imread("images/WindowsLogo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 print(src1.shape)
 print(src2.shape)

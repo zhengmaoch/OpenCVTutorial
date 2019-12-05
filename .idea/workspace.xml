@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3410b214-c1ef-4cb7-ae76-96f5e70e1853" name="Default Changelist" comment="" />
+    <list default="true" id="3410b214-c1ef-4cb7-ae76-96f5e70e1853" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_10.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_10.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_11.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_13.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_13.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_14.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_14.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_15.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_15.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_17.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_17.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_18.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_18.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_19.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_20.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_20.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_21.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_21.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_22.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_22.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_23.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_23.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_24.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_24.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_25.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_25.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_5.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_6.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_8.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_9.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +82,7 @@
       <recent name="C:\Users\fenjin\PycharmProjects\opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial_25">
+  <component name="RunManager" selected="Python.image">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,20 +105,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tutorial_21" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_21.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.image" />
         <item itemvalue="Python.tutorial_25" />
         <item itemvalue="Python.tutorial_24" />
         <item itemvalue="Python.tutorial_23" />
         <item itemvalue="Python.tutorial_22" />
-        <item itemvalue="Python.tutorial_21" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +235,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\fenjin\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -223,7 +250,8 @@
       <workItem from="1575440948771" duration="2228000" />
       <workItem from="1575445211133" duration="14022000" />
       <workItem from="1575506851140" duration="13442000" />
-      <workItem from="1575526604885" duration="635000" />
+      <workItem from="1575526604885" duration="1163000" />
+      <workItem from="1575528000434" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1575527128764</created>
@@ -245,11 +273,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="add" />
     <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
@@ -266,10 +302,14 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2705" y="434" width="373" height="172" key="Github.CreateGistDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575526752411" />
-    <state x="2383" y="165" key="SettingsEditor" timestamp="1575526695422">
+    <state x="2383" y="165" key="SettingsEditor" timestamp="1575528100995">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2383" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575526695422" />
+    <state x="2383" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575528100995" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1575528147698">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575528147698" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opencv$image.coverage" NAME="image Coverage Results" MODIFIED="1575356337924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

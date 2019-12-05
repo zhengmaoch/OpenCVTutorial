@@ -13,10 +13,10 @@ def canny_edge_demo(image):
     # edge
     canny_edge = cv.Canny(xgrad, ygrad, 50, 150)
     cv.imshow("canny_edge", canny_edge)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/canny_edge_image.jpg", canny_edge)
+    cv.imwrite("images/canny_edge_image.jpg", canny_edge)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

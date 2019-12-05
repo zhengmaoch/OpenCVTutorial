@@ -14,7 +14,7 @@ def erode_demo(image):
     erode = cv.erode(binary, kernel)
 
     cv.imshow("erode", erode)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/erode_image.jpg", erode)
+    cv.imwrite("images/erode_image.jpg", erode)
 
 def dilate_demo(image):
     """膨胀"""
@@ -27,10 +27,10 @@ def dilate_demo(image):
     dilate = cv.dilate(binary, kernel)
 
     cv.imshow("dilate", dilate)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/dilate_image.jpg", dilate)
+    cv.imwrite("images/dilate_image.jpg", dilate)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()
@@ -41,11 +41,11 @@ t1 = cv.getTickCount()
 kernel = cv.getStructuringElement(cv.MORPH_RECT, (3, 3))
 dilate = cv.dilate(src, kernel)
 cv.imshow("dilate", dilate)
-cv.imwrite("c:/Users/fenjin/PycharmProjects/images/dilate.jpg", dilate)
+cv.imwrite("images/dilate.jpg", dilate)
 
 erode = cv.erode(src, kernel)
 cv.imshow("erode", erode)
-cv.imwrite("c:/Users/fenjin/PycharmProjects/images/erode.jpg", erode)
+cv.imwrite("images/erode.jpg", erode)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

@@ -9,7 +9,7 @@ def equalHist_demo(image):
     cv.imshow("gray", gray)
     dst = cv.equalizeHist(gray)
     cv.imshow("equalizeHist", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/equalizeHist_image.jpg", dst)
+    cv.imwrite("images/equalizeHist_image.jpg", dst)
 
 
 def createCLAHEt_demo(image):
@@ -18,7 +18,7 @@ def createCLAHEt_demo(image):
     clahe = cv.createCLAHE(clipLimit=1.0, tileGridSize=(8, 8))
     dst = clahe.apply(gray)
     cv.imshow("createCLAHE", dst)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/createCLAHE_image.jpg", dst)
+    cv.imwrite("images/createCLAHE_image.jpg", dst)
 
 
 def create_rgb_hist(image):
@@ -44,7 +44,7 @@ def hist_compare(image1, image2):
     print("巴氏距离： %s, 相关性： %s, 卡方： %s" % (match1, match2, match3))
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 # cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 # cv.imshow("input image", src)
 t1 = cv.getTickCount()
@@ -52,8 +52,8 @@ t1 = cv.getTickCount()
 # equalHist_demo(src)
 # createCLAHEt_demo(src)
 
-image1 = cv.imread("c:/Users/fenjin/PycharmProjects/images/addimage.jpg")
-image2 = cv.imread("c:/Users/fenjin/PycharmProjects/images/xorimage.jpg")
+image1 = cv.imread("images/addimage.jpg")
+image2 = cv.imread("images/xorimage.jpg")
 cv.imshow("image1", image1)
 cv.imshow("image2", image2)
 hist_compare(image1, image2)

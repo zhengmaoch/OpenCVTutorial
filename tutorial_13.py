@@ -9,7 +9,7 @@ def threshold_demo(image):
     ret, binary = cv.threshold(gray, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
     print("threshold value %s" % ret)
     cv.imshow("threshold", binary)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/threshold_image.jpg", binary)
+    cv.imwrite("images/threshold_image.jpg", binary)
 
 
 def local_threshold_demo(image):
@@ -17,7 +17,7 @@ def local_threshold_demo(image):
     gray = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
     binary = cv.adaptiveThreshold(gray, 255, cv.ADAPTIVE_THRESH_GAUSSIAN_C, cv.THRESH_BINARY, 25, 10)
     cv.imshow("local_threshold", binary)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/local_threshold_image.jpg", binary)
+    cv.imwrite("images/local_threshold_image.jpg", binary)
 
 
 def custom_threshold_demo(image):
@@ -29,10 +29,10 @@ def custom_threshold_demo(image):
     print("mean : %s" % mean)
     ret, binary = cv.threshold(gray, mean, 255, cv.THRESH_BINARY)
     cv.imshow("custom_threshold", binary)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/custom_threshold_image.jpg", binary)
+    cv.imwrite("images/custom_threshold_image.jpg", binary)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

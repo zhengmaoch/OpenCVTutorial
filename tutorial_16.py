@@ -11,13 +11,13 @@ def sobel_demo(image):
     gradx = cv.convertScaleAbs(grad_x)
     grady = cv.convertScaleAbs(grad_y)
     cv.imshow("gradx", gradx)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/gradx_image.jpg", gradx)
+    cv.imwrite("images/gradx_image.jpg", gradx)
     cv.imshow("grady", grady)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/grady_image.jpg", grady)
+    cv.imwrite("images/grady_image.jpg", grady)
 
     gradxy = cv.addWeighted(gradx, 0.5, grady, 0.5, 0)
     cv.imshow("gradxy", gradxy)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/gradxy_image.jpg", gradxy)
+    cv.imwrite("images/gradxy_image.jpg", gradxy)
 
 
 def lapalian_demo(image):
@@ -29,17 +29,17 @@ def lapalian_demo(image):
     dst = cv.filter2D(image,cv.CV_32F, kernel=kernel)
     lpls = cv.convertScaleAbs(dst)
     cv.imshow("lapalian", lpls)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/lapalian_image.jpg", lpls)
+    cv.imwrite("images/lapalian_image.jpg", lpls)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 
 t1 = cv.getTickCount()
 # sobel_demo(src)
 lapalian_demo(src)
-# cv.imwrite("c:/Users/fenjin/PycharmProjects/images/result_image.jpg", src)
+# cv.imwrite("images/result_image.jpg", src)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

@@ -20,7 +20,7 @@ def line_detection(image):
         y2 = int(y0 - 1000 * (a))
         cv.line(image, (x1, y1), (x2, y2), (0, 0, 255), 2)
     cv.imshow("line_detection", image)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/line_detection_image.jpg", image)
+    cv.imwrite("images/line_detection_image.jpg", image)
 
 
 def line_detect_possible(image):
@@ -31,10 +31,10 @@ def line_detect_possible(image):
         x1, y1, x2, y2 = line[0]
         cv.line(image, (x1, y1), (x2, y2), (0, 0, 255), 2)
     cv.imshow("line_detect_possible", image)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/line_detect_possible_image.jpg", image)
+    cv.imwrite("images/line_detect_possible_image.jpg", image)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/sudoku.png")
+src = cv.imread("images/sudoku.png")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 

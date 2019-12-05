@@ -13,7 +13,7 @@ def open_demo(image):
 
     open = cv.morphologyEx(binary, cv.MORPH_RECT, kernel)
     cv.imshow("open", open)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/open_image.jpg", open)
+    cv.imwrite("images/open_image.jpg", open)
 
 
 def close_demo(image):
@@ -26,10 +26,10 @@ def close_demo(image):
 
     close = cv.morphologyEx(binary, cv.MORPH_CLOSE, kernel)
     cv.imshow("close", close)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/close_image.jpg", close)
+    cv.imwrite("images/close_image.jpg", close)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()

@@ -5,8 +5,8 @@ from matplotlib import pyplot as plt
 
 def template_demo():
     """模板匹配"""
-    template = cv.imread("c:/Users/fenjin/PycharmProjects/images/template.jpg")
-    target = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+    template = cv.imread("images/template.jpg")
+    target = cv.imread("images/demo.jpg")
     cv.imshow("sample", template)
     cv.imshow("target", target)
 
@@ -24,17 +24,17 @@ def template_demo():
         cv.rectangle(target, tl, br, (0, 0, 255), 2)
         # cv.imshow("match_" + np.str(md), target)
         cv.imshow("match_" + np.str(md), result)
-        cv.imwrite("c:/Users/fenjin/PycharmProjects/images/match_" + np.str(md) + "_image.jpg", target)
+        cv.imwrite("images/match_" + np.str(md) + "_image.jpg", target)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 # cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 # cv.imshow("input image", src)
 
 t1 = cv.getTickCount()
 
 template_demo()
-# cv.imwrite("c:/Users/fenjin/PycharmProjects/images/result_image.jpg", src)
+# cv.imwrite("images/result_image.jpg", src)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

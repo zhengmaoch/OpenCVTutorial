@@ -22,17 +22,17 @@ def big_image_binary(image):
             # else:
             #     ret, dst = cv.threshold(roi, 0, 255, cv.THRESH_BINARY | cv.THRESH_OTSU)
             #     gray[row:row+ch, col:col+cw] = dst
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/big_binary_image.jpg", gray)
+    cv.imwrite("images/big_binary_image.jpg", gray)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/big.jpeg")
+src = cv.imread("images/big.jpeg")
 # cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 # cv.imshow("input image", src)
 
 t1 = cv.getTickCount()
 
 big_image_binary(src)
-# cv.imwrite("c:/Users/fenjin/PycharmProjects/images/result_image.jpg", src)
+# cv.imwrite("images/result_image.jpg", src)
 
 t2 = cv.getTickCount()
 print("time : %s ms" % ((t2 - t1)/cv.getTickFrequency() * 1000))

@@ -13,7 +13,7 @@ def top_hat_demo(image):
     cimage = 120
     top_hat = cv.add(top_hat, cimage)
     cv.imshow("top_hat", top_hat)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/top_hat_image.jpg", top_hat)
+    cv.imwrite("images/top_hat_image.jpg", top_hat)
 
 
 def black_hat_demo(image):
@@ -26,7 +26,7 @@ def black_hat_demo(image):
     cimage = 120
     black_hat = cv.add(black_hat, cimage)
     cv.imshow("black_hat", black_hat)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/black_hat_image.jpg", black_hat)
+    cv.imwrite("images/black_hat_image.jpg", black_hat)
 
 
 def internal_external_demo(image):
@@ -38,13 +38,13 @@ def internal_external_demo(image):
     dst2 = cv.subtract(dm, image)
 
     cv.imshow("internal", dst1)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/internal_image.jpg", dst1)
+    cv.imwrite("images/internal_image.jpg", dst1)
 
     cv.imshow("external", dst2)
-    cv.imwrite("c:/Users/fenjin/PycharmProjects/images/external_image.jpg", dst2)
+    cv.imwrite("images/external_image.jpg", dst2)
 
 
-src = cv.imread("c:/Users/fenjin/PycharmProjects/images/demo.jpg")
+src = cv.imread("images/demo.jpg")
 cv.namedWindow("input image", cv.WINDOW_AUTOSIZE)
 cv.imshow("input image", src)
 t1 = cv.getTickCount()
