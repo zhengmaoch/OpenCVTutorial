@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3410b214-c1ef-4cb7-ae76-96f5e70e1853" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_eye.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_eye_tree_eyeglasses.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalcatface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalcatface_extended.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalface_alt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalface_alt2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalface_alt_tree.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_frontalface_default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_fullbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_lefteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_licence_plate_rus_16stages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_lowerbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_righteye_2splits.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_russian_plate_number.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_smile.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/haarcascades/haarcascade_upperbody.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lbpcascades/lbpcascade_frontalcatface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lbpcascades/lbpcascade_frontalface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lbpcascades/lbpcascade_frontalface_improved.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lbpcascades/lbpcascade_profileface.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/lbpcascades/lbpcascade_silverware.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/01-OpenCV---环境安装和初次使用 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/02-OpenCV---图像加载与保存 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/03-OpenCV---Numpy数组的使用以及创建图片 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/04-OpenCV---色彩空间（一） - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/05-OpenCV---色彩空间（二）HSV追踪颜色对象和通道分离与合并 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/06-OpenCV---像素运算 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/07-OpenCV---ROI（region of interest）和泛洪填充 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/08-OpenCV---模糊操作 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/09-OpenCV---高斯模糊（均值模糊的另一种） - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/10-OpenCV---边缘保留滤波EPF - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/11-OpenCV---图像直方图 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/12-OpenCV---直方图的应用（均衡化和图像比较） - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/13-OpenCV---直方图反向投影 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/14-OpenCV---模板匹配matchTemplate - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/15-OpenCV---图像二值化 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/16-OpenCV---超大图像二值化和空白区域过滤 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/17-OpenCV---图像金字塔原理 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/18-OpenCV---图像梯度 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/19-OpenCV---Canny边缘提取 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/20-OpenCV---直线检测 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/21-OpenCV---圆检测 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/22-OpenCV---对象测量 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/23-OpenCV---膨胀与腐蚀 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/24-OpenCV---开闭操作 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/25-OpenCV---其他形态学操作 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/26-OpenCV---分水岭算法 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/27-OpenCV---人脸检测 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/28-OpenCV---数字验证码识别 - 山上有风景 - 博客园(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/doc/28-OpenCV---数字验证码识别 - 山上有风景 - 博客园.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/faces_detect_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial_26.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/image.py" beforeDir="false" afterPath="$PROJECT_DIR$/image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/OpenCV---分水岭算法 - 山上有风景 - 博客园.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/OpenCV学习(7) 分水岭算法(1) - 迈克老狼2012 - 博客园.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/canny_edge_image.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/canny_edge_image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial_25.py" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial_25.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +95,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -52,10 +108,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\fenjin\PycharmProjects\opencv\data" />
+      <recent name="C:\Users\fenjin\PycharmProjects\opencv\doc" />
       <recent name="C:\Users\fenjin\PycharmProjects\opencv" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tutorial_25">
+  <component name="RunManager" selected="Python.tutorial_26">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,25 +140,6 @@
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="tutorial_22" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="opencv" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
@@ -110,7 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_22.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/image.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -167,6 +206,9 @@
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -182,13 +224,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tutorial_26" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="opencv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tutorial_26.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tutorial_26" />
         <item itemvalue="Python.tutorial_25" />
         <item itemvalue="Python.image" />
         <item itemvalue="Python.tutorial_24" />
         <item itemvalue="Python.tutorial_23" />
-        <item itemvalue="Python.tutorial_22" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +282,8 @@
       <workItem from="1575445211133" duration="14022000" />
       <workItem from="1575506851140" duration="13442000" />
       <workItem from="1575526604885" duration="1163000" />
-      <workItem from="1575528000434" duration="10182000" />
+      <workItem from="1575528000434" duration="10427000" />
+      <workItem from="1575592503791" duration="3954000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1575527128764</created>
@@ -258,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575538117597</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="分水岭图像分割算法">
+      <created>1575538399179</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538399179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,7 +338,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -284,10 +355,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="分水岭图像分割算法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2383" y="117" key="CommitChangelistDialog2" timestamp="1575538116473">
+    <state x="2383" y="117" key="CommitChangelistDialog2" timestamp="1575538398281">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2383" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575538116473" />
+    <state x="2383" y="117" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575538398281" />
     <state x="2660" y="278" key="FileChooserDialogImpl" timestamp="1575526909502">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -300,10 +371,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2617" y="174" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575532398670" />
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1575538120335">
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2" timestamp="1575538401654">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575538120335" />
+    <state x="2472" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1575538401654" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/opencv$image.coverage" NAME="image Coverage Results" MODIFIED="1575356337924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
